@@ -33,10 +33,18 @@ var cli = meow([
 ]);
 
 
-if (!(Object.keys(cli.flags).length) && cli.input.length < 2) { 
+if (!(Object.keys(cli.flags).length) && cli.input.length < 1) { 
 	cli.showHelp();
 	process.exit(1);
 } 
+
+if (cli.input.length === 1) {
+  console.log(configHyperterm.get(cli.input[0]));
+}
+
+if (cli.input.length === 2) {
+  // TDB set.
+}
 
 if (Object.keys(cli.flags).length > 0) {
   if (cli.flags.plugins) {
@@ -47,5 +55,6 @@ if (Object.keys(cli.flags).length > 0) {
   } else {
   	console.log(`No such flag ${Object.keys(cli.flags).join(' ')}`);
   }
-}
+} 
+
 

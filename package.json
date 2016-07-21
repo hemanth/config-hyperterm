@@ -27,6 +27,7 @@
     "config"
   ],
   "dependencies": {
+    "camelcase": "^3.0.0",
     "expand-tilde": "^1.2.2",
     "meow": "^3.7.0"
   },
