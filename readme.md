@@ -67,11 +67,9 @@ $ config-hyperterm
 
 ```
 
-__TODO__
+__GIF FTW:__
 
-* `setter` method.
-
-* Class?
+![config-hyperterm](./config-hyperterm.gif)
 
 
 ## License

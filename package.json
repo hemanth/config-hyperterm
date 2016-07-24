@@ -29,7 +29,8 @@
   "dependencies": {
     "camelcase": "^3.0.0",
     "expand-tilde": "^1.2.2",
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "ramda": "^0.21.0"
   },
   "devDependencies": {
     "ava": "^0.14.0"

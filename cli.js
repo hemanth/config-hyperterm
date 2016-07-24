@@ -43,7 +43,7 @@ if (cli.input.length === 1) {
 }
 
 if (cli.input.length === 2) {
-  // TDB set.
+  configHyperterm.set(cli.input[0], cli.input[1]);
 }
 
 if (Object.keys(cli.flags).length > 0) {
