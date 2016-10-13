@@ -15,7 +15,7 @@ const requireConfig = hyperTermconfigPath => {
   try {
     hyperTermconfig = require(configPath);
   } catch(e) {
-    console.error('Could not find `~/.hyperterm.js`, please make sure you have installed hyperterm!');
+    console.error('Could not find `~/.hyper.js`, please make sure you have installed hyperterm!');
     process.exit(-1);
   }
 }
