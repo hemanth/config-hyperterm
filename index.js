@@ -11,7 +11,7 @@ const shortHandMap = {
 let hyperTermconfig, configPath;
 
 const requireConfig = hyperTermconfigPath => {
-  configPath = require('expand-tilde')(hyperTermconfigPath || '~/.hyperterm.js');
+  configPath = require('expand-tilde')(hyperTermconfigPath || '~/.hyper.js');
   try {
     hyperTermconfig = require(configPath);
   } catch(e) {
