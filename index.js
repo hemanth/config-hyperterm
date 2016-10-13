@@ -11,11 +11,11 @@ const shortHandMap = {
 let hyperTermconfig, configPath;
 
 const requireConfig = hyperTermconfigPath => {
-  configPath = require('expand-tilde')(hyperTermconfigPath || '~/.hyperterm.js');
+  configPath = require('expand-tilde')(hyperTermconfigPath || '~/.hyper.js');
   try {
     hyperTermconfig = require(configPath);
   } catch(e) {
-    console.error('Could not find `~/.hyperterm.js`, please make sure you have installed hyperterm!');
+    console.error('Could not find `~/.hyper.js`, please make sure you have installed hyperterm!');
     process.exit(-1);
   }
 }
