@@ -1,6 +1,6 @@
 {
   "name": "config-hyperterm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily set/get `hyperterm` config.",
   "license": "MIT",
   "repository": "hemanth/config-hyperterm",
@@ -27,12 +27,12 @@
     "config"
   ],
   "dependencies": {
-    "camelcase": "^3.0.0",
-    "expand-tilde": "^1.2.2",
-    "meow": "^3.7.0",
-    "ramda": "^0.21.0"
+    "camelcase": "^9.0.0",
+    "expand-tilde": "^2.0.2",
+    "meow": "^14.1.0",
+    "ramda": "^0.32.0"
   },
   "devDependencies": {
-    "ava": "^0.14.0"
+    "ava": "^8.0.1"
   }
 }

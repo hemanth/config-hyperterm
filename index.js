@@ -1,5 +1,5 @@
 'use strict';
-const camelCase = require('camelcase');
+const camelCase = ((m) => (m && m.default) ? m.default : m)(require('camelcase'));
 const R = require('ramda');
 const writeFileSync = require('fs').writeFileSync;
 const shortHandMap = {

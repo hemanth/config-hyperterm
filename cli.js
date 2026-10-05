@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-var meow = require('meow');
+var meow = ((m) => (m && m.default) ? m.default : m)(require('meow'));
 var configHyperterm = require('./')();
 
 
